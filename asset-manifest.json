@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.a4838356.css",
-    "main.js": "/personal-portfolio/static/js/main.c6cbc89b.js",
+    "main.js": "/personal-portfolio/static/js/main.b96de59d.js",
     "static/js/787.1ed0c42c.chunk.js": "/personal-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/stock_watchlist.png": "/personal-portfolio/static/media/stock_watchlist.bb1189bfbe2bf86af6ab.png",
     "static/media/earnings.png": "/personal-portfolio/static/media/earnings.2a0022d704f533939bc8.png",
@@ -31,11 +31,11 @@
     "static/media/angular.svg": "/personal-portfolio/static/media/angular.00d10ea694079f70b937fd1d5d7afc20.svg",
     "static/media/npm.svg": "/personal-portfolio/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.a4838356.css.map": "/personal-portfolio/static/css/main.a4838356.css.map",
-    "main.c6cbc89b.js.map": "/personal-portfolio/static/js/main.c6cbc89b.js.map",
+    "main.b96de59d.js.map": "/personal-portfolio/static/js/main.b96de59d.js.map",
     "787.1ed0c42c.chunk.js.map": "/personal-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4838356.css",
-    "static/js/main.c6cbc89b.js"
+    "static/js/main.b96de59d.js"
   ]
 }
