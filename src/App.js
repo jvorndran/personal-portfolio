@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import LeftBar from "../../personal-portfolio/src/components/LeftBar";
-import Main from "../../personal-portfolio/src/components/Main";
+import LeftBar from "./components/LeftBar";
+import Main from "./components/Main";
 import { motion } from "framer-motion";
 
 function App() {
