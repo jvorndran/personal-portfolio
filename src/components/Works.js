@@ -1,6 +1,6 @@
-import stockWatchlist from "../../../my-portfolio/src/images/projects/stock_watchlist.png";
-import earningsSite from "../../../my-portfolio/src/images/projects/earnings.png"
-import screener from "../../../my-portfolio/src/images/projects/screener.png"
+import stockWatchlist from "../images/projects/stock_watchlist.png";
+import earningsSite from "../images/projects/earnings.png"
+import screener from "../images/projects/screener.png"
 
 function Works() {
   return (
