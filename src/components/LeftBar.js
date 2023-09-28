@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import avatar from "../../../my-portfolio/src/images/avatar.jpg";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
