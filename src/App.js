@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import LeftBar from "../../personal-portfolio/src/components/LeftBar";
+import Main from "../../personal-portfolio/src/components/Main";
+import { motion } from "framer-motion";
 
 function App() {
+  React.useEffect(() => {
+    function toggle() {
+      const leftBar = document.querySelector(".left");
+      leftBar.classList.toggle("active");
+      document.querySelector(".sidebar-toggle-btn2").classList.toggle("hide");
+    }
+
+    document
+        .querySelector(".sidebar-toggle-btn")
+        .addEventListener("click", toggle);
+    document
+        .querySelector(".sidebar-toggle-btn2")
+        .addEventListener("click", toggle);
+  });
+
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={variants}
+          className="App"
+      >
+        <LeftBar />
+        <Main />
+      </motion.div>
   );
 }
 
 export default App;
+
