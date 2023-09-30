@@ -14,7 +14,7 @@ function Works() {
             <em>Node</em> <em>Express</em> and <em>MongoDB</em>.
           </p>
           <div className="work-buttons">
-            <a href="https://leatra.com/" target="_blank" rel="noreferrer">
+            <a href="https://flask-project-1e1de9b3e5d3.herokuapp.com/" target="_blank" rel="noreferrer">
               View live site
             </a>
           </div>
@@ -31,7 +31,7 @@ function Works() {
           </p>
           <div className="work-buttons">
             <a
-              href="https://a-adeleye.github.io/cv-maker/"
+              href="https://findashboard2345.onrender.com/"
               target="_blank"
               rel="noreferrer"
             >

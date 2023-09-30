@@ -3,8 +3,6 @@ import "./App.css";
 import LeftBar from "./components/LeftBar";
 import Main from "./components/Main";
 import { motion } from "framer-motion";
-import {Route, Routes} from "react-router-dom";
-import Layout from "./components/Layout";
 
 function App() {
   React.useEffect(() => {
@@ -28,8 +26,6 @@ function App() {
   };
 
   return (
-      <Routes>
-        <Route path="/" element={<Layout />}>
           <motion.div
               initial="hidden"
               animate="visible"
@@ -39,8 +35,6 @@ function App() {
             <LeftBar />
             <Main />
           </motion.div>
-        </Route>
-      </Routes>
   );
 }
 

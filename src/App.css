@@ -209,7 +209,7 @@ a:active {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .info-header {
@@ -241,18 +241,50 @@ a:active {
 
 .info-title,
 .info-email {
+  display: grid;
+  width: 60%;
+  grid-template-columns: 10% 80%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
   color: #8c8cae;
   font-size: 0.8em;
+}
+
+.info-email > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-email > a {
+  color: #8c8cae;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.info-email > a:hover{
+  scale: 1.05;
 }
 
 .info-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2em;
+  gap: 1.5em;
   padding: 2em;
-  height: 300px;
+  height: 200px;
+  color: white;
 }
+
+.info-body > div{
+  display: grid;
+  gap: 10px;
+}
+
 
 .body-details {
   display: grid;
@@ -309,9 +341,19 @@ a:active {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   justify-content: space-around;
+  margin-top: auto;
   align-items: center;
   background-color: #23232d;
+}
+
+.button-container{
+  margin-top: 30%;
+  margin-bottom: 30%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .info-socials > a {

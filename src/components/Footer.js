@@ -1,9 +1,11 @@
 import {toast} from "react-toastify";
+import {AiFillGithub} from "react-icons/ai";
+import {GrMail} from "react-icons/gr";
 
 function Footer() {
 
   const copyEmailToClipboard = () => {
-    const email = 'jvorndran311@gmail.com';
+    const email = 'jvorndran400@gmail.com';
 
     const tempInput = document.createElement('input');
     tempInput.value = email;
@@ -24,15 +26,14 @@ function Footer() {
       <div className="footer-links">
         <div>
           <a href="https://www.github.com/jvorndran" target="_blank">
-            <i className="fa-brands fa-github"></i>
-            <p>github.com/jvorndran</p>
+            <p style={{display: "flex", gap: "5px", alignItems: "center"}}><AiFillGithub />github.com/jvorndran</p>
           </a>
         </div>
 
         <div>
           <a onClick={copyEmailToClipboard}>
             <i className="fa-solid fa-envelope"></i>
-            <p>jvorndran311@gmail.com</p>
+            <p style={{display: "flex", gap: "5px", alignItems: "center"}}><GrMail />jvorndran400@gmail.com</p>
           </a>
         </div>
       </div>

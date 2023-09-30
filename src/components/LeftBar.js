@@ -2,11 +2,14 @@ import { motion } from "framer-motion";
 import avatar from "../images/avatar.jpg";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import {MdEmail} from 'react-icons/md';
+import { AiFillGithub } from 'react-icons/ai';
+import Button from "@mui/material/Button"
 
 function LeftBar() {
 
   const copyEmailToClipboard = () => {
-    const email = 'jvorndran311@gmail.com';
+    const email = 'jvorndran400@gmail.com';
 
     const tempInput = document.createElement('input');
     tempInput.value = email;
@@ -46,28 +49,35 @@ function LeftBar() {
             <img src={avatar} alt="" />
           </div>
           <h2 className="info-name">Jacob Vorndran</h2>
-          <p className="info-title">Web Developer</p>
           <p className="info-email">
-            <i className="fa-solid fa-envelope"></i> jvorndran311@gmail.com
+            <MdEmail></MdEmail> <p>jvorndran400@gmail.com</p>
+            <AiFillGithub /> <a href="github.com/jvorndran">github.com/jvorndran</a>
           </p>
+
         </div>
         <div className="info-body">
-          <div className="body-details">
-            <h4>Residence:</h4> <span>United States</span>
-            <h4>City:</h4> <span>Jacksonville</span>
-            <h4>Language:</h4> <span>English</span>
-          </div>
+
+         <h1>Education</h1>
+          <hr />
+          <div><h4>University of North Florida</h4><p>Expected May 2024</p><p><b>Major GPA: 3.51</b></p></div>
+
         </div>
+
+        <div className="button-container">
+          <Button variant="contained">Download Resume</Button>
+        </div>
+
         <div className="info-socials">
+
           <a
             href="https://github.com/jvorndran"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-github"></i>
+           <AiFillGithub />
           </a>
           <a onClick={copyEmailToClipboard}>
-            <i className="fa-solid fa-envelope"></i>
+            <MdEmail />
           </a>
           <ToastContainer />
         </div>

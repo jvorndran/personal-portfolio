@@ -20,11 +20,10 @@ function Header() {
       <div className="sidebar-toggle-btn2">
         <i className="fa-solid fa-bars"></i>
       </div>
-      <h2>Hello there 👋</h2>
+      <h2>Hello There 👋</h2>
       <h3>
-        I am an ambitious web developer looking to break into the field
+          I am an ambitious developer with a strong foundation in both front-end and back-end technologies.
       </h3>
-      <p>I am currently enrolled at the University of North Florida in the School Of Computing where I have a 3.57 major GPA. </p>
     </motion.header>
   );
 }
