@@ -14,8 +14,15 @@ function Works() {
             <em>Node</em> <em>Express</em> and <em>MongoDB</em>.
           </p>
           <div className="work-buttons">
-            <a href="https://flask-project-1e1de9b3e5d3.herokuapp.com/" target="_blank" rel="noreferrer">
+            <a href="https://findashboard2345.onrender.com/" target="_blank" rel="noreferrer">
               View live site
+            </a>
+            <a
+                href="https://github.com/jvorndran/stock_watchlist"
+                target="_blank"
+                rel="noreferrer"
+            >
+              View repository
             </a>
           </div>
         </div>
@@ -31,14 +38,14 @@ function Works() {
           </p>
           <div className="work-buttons">
             <a
-              href="https://findashboard2345.onrender.com/"
+              href="https://flask-project-1e1de9b3e5d3.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
               View live app
             </a>
             <a
-              href="https://github.com/a-adeleye/cv-maker"
+              href="https://github.com/jvorndran/DeMark_Screener_Website"
               target="_blank"
               rel="noreferrer"
             >
@@ -53,20 +60,20 @@ function Works() {
 
       <article className="light">
         <div className="text">
-          <h3>Earnings Watcher Website</h3>
+          <h3>Earnings Insights Website</h3>
           <p>
             Allows you to see upcoming earnings, implied moves, earnings estimates, etc. Built with <em>Angular</em> and <em>Django</em>
           </p>
           <div className="work-buttons">
             <a
-              href="https://a-adeleye.github.io/e-commerce/"
+              href="https://earnings-site-ecd7d0fe9d3a.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
               View live app
             </a>
             <a
-              href="https://github.com/a-adeleye/e-commerce"
+              href="https://github.com/jvorndran/earnings_site"
               target="_blank"
               rel="noreferrer"
             >

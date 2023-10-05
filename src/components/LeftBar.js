@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {MdEmail} from 'react-icons/md';
 import { AiFillGithub } from 'react-icons/ai';
 import Button from "@mui/material/Button"
+import resume from "../Undergrad_Resume_w_Notes.pdf"
 
 function LeftBar() {
 
@@ -23,6 +24,7 @@ function LeftBar() {
       className: 'email-copied-notification'
     });
   };
+
 
   const variants = {
     hidden: {
@@ -51,7 +53,7 @@ function LeftBar() {
           <h2 className="info-name">Jacob Vorndran</h2>
           <p className="info-email">
             <MdEmail></MdEmail> <p>jvorndran400@gmail.com</p>
-            <AiFillGithub /> <a href="github.com/jvorndran">github.com/jvorndran</a>
+            <AiFillGithub /> <a href="https://github.com/jvorndran" target="_blank">github.com/jvorndran</a>
           </p>
 
         </div>
@@ -59,12 +61,14 @@ function LeftBar() {
 
          <h1>Education</h1>
           <hr />
-          <div><h4>University of North Florida</h4><p>Expected May 2024</p><p><b>Major GPA: 3.51</b></p></div>
+          <div><h4>University of North Florida</h4><p>Expected December 2024</p><p><b>Major GPA: 3.51</b></p></div>
 
         </div>
 
         <div className="button-container">
-          <Button variant="contained">Download Resume</Button>
+          <a href={resume} download="resume">
+            <Button variant="contained">Download Resume</Button>
+          </a>
         </div>
 
         <div className="info-socials">
@@ -72,7 +76,6 @@ function LeftBar() {
           <a
             href="https://github.com/jvorndran"
             target="_blank"
-            rel="noreferrer"
           >
            <AiFillGithub />
           </a>
