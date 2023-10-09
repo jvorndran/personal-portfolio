@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {MdEmail} from 'react-icons/md';
 import { AiFillGithub } from 'react-icons/ai';
 import Button from "@mui/material/Button"
-import resume from "../Undergrad_Resume_w_Notes.pdf"
+import resume from "../Resume_final.pdf"
 
 function LeftBar() {
 
