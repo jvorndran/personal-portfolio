@@ -12,6 +12,10 @@ function App() {
       document.querySelector(".sidebar-toggle-btn2").classList.toggle("hide");
     }
 
+
+
+
+
     document
         .querySelector(".sidebar-toggle-btn")
         .addEventListener("click", toggle);
