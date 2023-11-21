@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 
 function App() {
   React.useEffect(() => {
+
+
     function toggle() {
       const leftBar = document.querySelector(".left");
       leftBar.classList.toggle("active");
