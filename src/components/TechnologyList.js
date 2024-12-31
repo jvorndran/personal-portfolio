@@ -8,10 +8,8 @@ import tailwind from "../images/technologies/tailwind.svg";
 import node from "../images/technologies/node.svg";
 import express from "../images/technologies/express.svg";
 import mongoDB from "../images/technologies/mongo.svg";
-import postgres from "../images/technologies/postgres.svg";
 import git from "../images/technologies/git.svg";
 import npm from "../images/technologies/npm.svg";
-import springboot from "../images/technologies/spring_boot.svg";
 import java from "../images/technologies/java.svg";
 import flask from "../images/technologies/flask.svg";
 import django from "../images/technologies/django.svg";
@@ -19,8 +17,10 @@ import mySQL from "../images/technologies/mysql.svg";
 import python from "../images/technologies/python.svg";
 import webpack from "../images/technologies/webpack.svg";
 import jwt from "../images/technologies/jwt.svg"
-import linux from "../images/technologies/linux.svg"
-
+import jira from "../images/technologies/jira.svg"
+import php from "../images/technologies/PHP.svg"
+import jquery from "../images/technologies/jquery.svg"
+import aem from "../images/technologies/AEM.svg"
 
 const technologyList = [
   { id: 1, name: "HTML", image: html },
@@ -30,13 +30,14 @@ const technologyList = [
   {id: 5, name: "Python", image: python},
   {id: 6, name: "React", image: react},
   {id: 7, name: "Angular", image: angular},
+  {id: 8, name: "Jira", image: jira},
   {id: 9, name: "Tailwind CSS", image: tailwind},
   {id: 10, name: "Node", image: node},
   {id: 11, name: "Express", image: express},
   {id: 12, name: "MongoDB", image: mongoDB},
-  {id: 13, name: "PostgreSQL", image: postgres},
+  {id: 13, name: "PHP", image: php},
   {id: 14, name: "MySQL", image: mySQL},
-  {id: 15, name: "Spring Boot", image: springboot},
+  {id: 15, name: "jQuery", image: jquery},
   {id: 16, name: "Java", image: java},
   {id: 17, name: "Git", image: git},
   {id: 18, name: "NPM", image: npm},
@@ -44,7 +45,7 @@ const technologyList = [
   {id: 20, name: "Django", image: django},
   {id: 21, name: "Webpack", image: webpack},
   {id: 22, name: "JWT", image: jwt},
-  {id: 23, name: "Linux", image: linux}
+  {id: 23, name: "AEM", image: aem},
 ];
 
 export default technologyList

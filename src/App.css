@@ -158,7 +158,7 @@ article {
   color: #ffffff;
 }
 
-.text > p {
+.text > p, ul, li {
   color: #8c8cae;
 }
 
@@ -202,6 +202,15 @@ a:active {
 
 .image > img {
   width: 100%;
+}
+
+.experience-image {
+  flex-basis: 50%;
+}
+
+.experience-image > img {
+  max-height: 275px;
+  max-width: 400px;
 }
 
 .info-bar {
@@ -603,4 +612,13 @@ footer i {
   margin: 20px;
   display: flex;
   justify-content: center;
+}
+
+.experience-list {
+  color: lightgray;
+}
+
+.exp-technologies > img {
+  max-width: 40px;
+  max-height: 40px;
 }

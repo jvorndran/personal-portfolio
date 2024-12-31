@@ -3,6 +3,7 @@ import Header from "./Header";
 import Technologies from "./Technologies";
 import Works from "./Works";
 import Footer from "./Footer";
+import Experience from "./Experience";
 
 
 function Main() {
@@ -33,6 +34,7 @@ function Main() {
     <section className="right">
       <Header />
       <Technologies />
+      <Experience />
       <Works />
       <Footer />
     </section>

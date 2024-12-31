@@ -34,7 +34,7 @@ function Works() {
         <div className="text">
           <h3>Stock Market Screener</h3>
           <p>
-            Screens over 7,000 stocks for DeMark&#8482; Indicators. Built with <em>Flask</em> and <em>Vanilla Javascript</em>.
+            Screens over 7,000 stocks for DeMark&#8482; Indicators. Built with <em>Flask</em> and <em>Javascript</em>.
           </p>
           <div className="work-buttons">
             <a

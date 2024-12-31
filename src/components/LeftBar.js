@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {MdEmail} from 'react-icons/md';
 import { AiFillGithub } from 'react-icons/ai';
 import Button from "@mui/material/Button"
-import resume from "../Resume_final.pdf"
+import resume from "../jacob_vorndran_resume_12_13.pdf"
 
 function LeftBar() {
 
@@ -61,12 +61,12 @@ function LeftBar() {
 
          <h1>Education</h1>
           <hr />
-          <div><h4>University of North Florida</h4><p>Expected December 2024</p><p><b>Major GPA: 3.51</b></p></div>
+          <div><h4>University of North Florida</h4><p>Expected December 2024</p><p><b>Major GPA: 3.46</b></p></div>
 
         </div>
 
         <div className="button-container">
-          <a href={resume} download="resume">
+          <a href={resume} download="resume_jacob_vorndran">
             <Button variant="contained">Download Resume</Button>
           </a>
         </div>
